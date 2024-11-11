@@ -32,4 +32,28 @@ This version of the game is built using HTML, CSS, and JavaScript.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/simon-says-game.git
+   git clone https://github.com/goswamisagar/Simon-says-game-
+
+## Project Structure  
+   ```bash
+/simon-says-game
+├── index.html        # Main HTML file
+├── style.css         # Game's styling
+├── script.js         # JavaScript file for game logic
+└── README.md         # Project documentation
+
+# Code Explanation
+## index.html
+This file contains the basic structure of the game, including a set of colored buttons and a display area for the score and game status.
+
+##style.css
+
+This file defines the game's visual design. It includes styles for the buttons, colors, and layout.
+
+## script.js
+The script.js file contains the main logic for the game. This includes:
+
+. Generating the color sequence.
+. Handling user input.
+. Checking if the player is correct.
+. Updating the UI with feedback (color flashes, score updates, etc.).
